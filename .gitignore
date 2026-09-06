@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+stockagent-env/
+
+# Secrets / local config
+.env
+settings.py
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Logs and generated simulation output
+log/*.log
+res/*.csv
+res/*.json
