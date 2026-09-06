@@ -34,3 +34,29 @@ Stockagent/
 ├── .env.example          # Environment variable template
 ├── .gitignore            # Git ignore rules
 └── README.md             # Project documentation
+Project Structure
+agent.py — Trading agent logic
+main.py — Main simulation
+secretary.py — AI/API interface
+stock.py — Stock market logic
+record.py — Result recording
+util.py — Configuration and utilities
+prompt/ — AI prompts
+Results
+
+The simulation generates:
+
+summary.json
+trades.csv
+stocks.csv
+agent_sessions.csv
+agent_daily.csv
+Disclaimer
+
+This is an educational stock-market simulation. It does not perform real trades, connect to brokerage accounts, or provide financial advice.
+
+Author
+
+Soleha Sayed
+
+AI & Data Science Student
